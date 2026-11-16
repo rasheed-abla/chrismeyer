@@ -2,7 +2,7 @@
 <html lang="de">
   <head>
     <meta charset="UTF-8" />
-    <title>Datenschutzerklärung</title>
+    <title>Datenschutzerklärung – Chris Model</title>
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <style>
       body {
@@ -23,6 +23,7 @@
         border-radius: 1rem;
         box-shadow: 0 18px 40px rgba(0, 0, 0, 0.55);
         border: 1px solid #272739;
+        overflow-wrap: break-word;
       }
 
       h1,
@@ -42,7 +43,7 @@
 
       h2 {
         font-size: 1.15rem;
-        margin-top: 1.6rem;
+        margin-top: 1.8rem;
         margin-bottom: 0.6rem;
       }
 
@@ -88,6 +89,20 @@
         margin-bottom: 1.2rem;
       }
 
+      .back {
+        display: inline-block;
+        margin-bottom: 1.2rem;
+        font-size: 0.85rem;
+      }
+
+      .highlight {
+        border: 1px solid #272739;
+        background: #0f0f16;
+        border-radius: 0.7rem;
+        padding: 0.8rem 1rem;
+        margin: 0.8rem 0;
+      }
+
       @media (max-width: 600px) {
         body {
           padding: 1.5rem 1rem;
@@ -101,24 +116,10 @@
         h1 {
           font-size: 1.5rem;
         }
-      }
-      main {
-        overflow: hidden; /* schneidet nichts ab, verhindert Überstand */
-        word-wrap: break-word; /* bricht lange Wörter */
-        overflow-wrap: break-word; /* bricht problematische Wörter */
-        padding: 2rem 1.8rem; /* Standard Padding */
-      }
-
-      /* Auf sehr kleinen Phones (iPhone SE, 320–390px) */
-      @media (max-width: 480px) {
-        main {
-          padding: 1.6rem 1.2rem; /* mehr Innenabstand nach links/rechts */
-          border-radius: 0.7rem;
-        }
 
         p,
         li {
-          font-size: 0.92rem; /* minimal kleiner für saubere Zeilen */
+          font-size: 0.92rem;
           line-height: 1.55;
         }
       }
@@ -126,232 +127,325 @@
   </head>
   <body>
     <main>
+      <a class="back" href="index.html">← Zurück zur Startseite</a>
+
       <h1>Datenschutzerklärung</h1>
+      <p class="meta">Stand: November 2026</p>
 
-      <p class="meta">Stand: <span id="ds-date">2025</span></p>
-
-      <h2>1. Verantwortliche Stelle</h2>
-      <p>Verantwortlich für die Datenverarbeitung auf dieser Website ist:</p>
+      <!-- ===================================================== -->
+      <h2>1. Verantwortlicher</h2>
       <p>
-        <strong>Christopher Meyer</strong><br />
+        Verantwortlich für die Datenverarbeitung auf dieser Website im Sinne
+        der Datenschutz-Grundverordnung (DSGVO) ist:
+      </p>
+      <p>
+        Christopher Meyer<br />
+        Röderweg 18<br />
+        65232 Taunusstein<br />
+        Deutschland
+      </p>
+      <p>
+        Telefon: <a href="tel:+491638563662">0163 8563662</a><br />
         E-Mail:
         <a href="mailto:info.chris-model@web.de">info.chris-model@web.de</a>
       </p>
       <p>
-        Diese Website dient ausschließlich als privates, nicht-kommerzielles
-        Portfolio (Hobby-Model).
+        Ein Datenschutzbeauftragter ist nicht bestellt, da hierzu keine
+        gesetzliche Verpflichtung besteht.
       </p>
 
-      <h2>2. Zwecke der Datenverarbeitung</h2>
+      <!-- ===================================================== -->
+      <h2>2. Überblick</h2>
       <p>
-        Die Website dient der Präsentation eigener Fotos und zur Möglichkeit der
-        Kontaktaufnahme. Es findet keine kommerzielle Nutzung und keine
-        Auswertung zu Werbezwecken statt.
+        Diese Website präsentiert mein Portfolio als Model und bietet die
+        Möglichkeit, mich für Shootings, Kampagnen und Content-Produktionen
+        anzufragen. Personenbezogene Daten verarbeite ich nur, soweit dies für
+        den Betrieb der Website und die Bearbeitung von Anfragen erforderlich
+        ist. Es findet kein Tracking und keine Analyse des Nutzerverhaltens
+        statt.
       </p>
 
-      <h2>3. Erhebung und Speicherung personenbezogener Daten</h2>
-
-      <h3>3.1 Beim Besuch der Website</h3>
+      <!-- ===================================================== -->
+      <h2>3. Hosting der Website (GitHub Pages)</h2>
       <p>
-        Beim Aufrufen dieser Website werden durch den von mir genutzten
-        Hosting-Anbieter automatisch Informationen in sogenannten
-        Server-Logfiles erhoben und gespeichert. Dies sind insbesondere:
+        Diese Website wird über den Dienst <strong>GitHub Pages</strong>
+        bereitgestellt. Anbieter ist die GitHub, Inc., 88 Colin P. Kelly Jr.
+        Street, San Francisco, CA 94107, USA.
+      </p>
+      <p>
+        Beim Aufruf der Website verarbeitet GitHub automatisch Daten, die dein
+        Browser übermittelt, insbesondere:
       </p>
       <ul>
-        <li>IP-Adresse des anfragenden Endgeräts (ggf. gekürzt)</li>
+        <li>IP-Adresse des anfragenden Endgeräts</li>
         <li>Datum und Uhrzeit des Zugriffs</li>
-        <li>aufgerufene Seite/Datei</li>
-        <li>übertragene Datenmenge</li>
-        <li>Browsertyp und Browserversion</li>
-        <li>verwendetes Betriebssystem</li>
+        <li>aufgerufene Seite bzw. Datei</li>
+        <li>Browsertyp, Browserversion und Betriebssystem</li>
         <li>Referrer-URL (zuvor besuchte Seite)</li>
       </ul>
       <p>
-        Diese Daten sind technisch erforderlich, um die Website korrekt
-        darzustellen und deren Stabilität und Sicherheit zu gewährleisten.
+        Diese Verarbeitung ist technisch erforderlich, um die Website
+        auszuliefern sowie ihre Stabilität und Sicherheit zu gewährleisten.
+        Rechtsgrundlage ist Art. 6 Abs. 1 lit. f DSGVO; mein berechtigtes
+        Interesse liegt in einer sicheren und zuverlässigen Bereitstellung der
+        Website.
       </p>
       <p>
-        <strong>Rechtsgrundlage:</strong> Art. 6 Abs. 1 lit. f DSGVO
-        (berechtigtes Interesse an der sicheren und funktionsfähigen
-        Bereitstellung der Website).
+        Dabei können Daten in die USA übermittelt werden. GitHub ist unter dem
+        EU-US Data Privacy Framework zertifiziert; die Übermittlung erfolgt auf
+        Grundlage des Angemessenheitsbeschlusses der EU-Kommission (Art. 45
+        DSGVO). Weitere Informationen:
+        <a
+          href="https://docs.github.com/de/site-policy/privacy-policies/github-general-privacy-statement"
+          target="_blank"
+          rel="noopener noreferrer"
+          >Datenschutzerklärung von GitHub</a
+        >.
       </p>
 
-      <h3>3.2 Daten bei Nutzung des Kontaktformulars</h3>
+      <!-- ===================================================== -->
+      <h2>4. Speicherung der Bilder (Amazon Web Services)</h2>
       <p>
-        Wenn du das Kontaktformular auf dieser Website nutzt, werden folgende
-        Daten erhoben:
+        Die Fotos dieser Website sind beim Dienst
+        <strong>Amazon S3</strong> gespeichert. Anbieter ist die Amazon Web
+        Services EMEA SARL, 38 Avenue John F. Kennedy, L-1855 Luxemburg. Die
+        Bilder liegen auf Servern in der EU (Region Stockholm, Schweden).
+      </p>
+      <p>
+        Beim Laden der Bilder wird deine IP-Adresse sowie die technischen
+        Angaben deines Browsers an Amazon übermittelt, da die Bilder sonst nicht
+        angezeigt werden können. Rechtsgrundlage ist Art. 6 Abs. 1 lit. f DSGVO;
+        mein berechtigtes Interesse liegt in einer schnellen und zuverlässigen
+        Darstellung der Fotos. Mit Amazon besteht ein Vertrag zur
+        Auftragsverarbeitung (Art. 28 DSGVO).
+      </p>
+      <p>
+        Ein Zugriff durch die US-Muttergesellschaft ist nicht ausgeschlossen.
+        Amazon ist unter dem EU-US Data Privacy Framework zertifiziert. Weitere
+        Informationen:
+        <a
+          href="https://aws.amazon.com/de/privacy/"
+          target="_blank"
+          rel="noopener noreferrer"
+          >Datenschutzhinweise von AWS</a
+        >.
+      </p>
+
+      <!--
+        =====================================================
+        ABSCHNITT 5 – GOOGLE FONTS
+        Nur behalten, solange index.html die Schrift "Poppins" noch über
+        fonts.googleapis.com lädt.
+        Besser: Schrift lokal im Repository speichern. Dann den GESAMTEN
+        Abschnitt 5 löschen und die folgenden Abschnitte neu nummerieren.
+        =====================================================
+      -->
+      <h2>5. Schriftarten (Google Fonts)</h2>
+      <p>
+        Auf der Startseite wird die Schriftart „Poppins“ über den Dienst
+        <strong>Google Fonts</strong> geladen. Anbieter ist die Google Ireland
+        Limited, Gordon House, Barrow Street, Dublin 4, Irland.
+      </p>
+      <p>
+        Beim Aufruf der Seite stellt dein Browser eine Verbindung zu Servern von
+        Google her; dabei wird insbesondere deine IP-Adresse übermittelt.
+        Rechtsgrundlage ist Art. 6 Abs. 1 lit. f DSGVO; mein berechtigtes
+        Interesse liegt in einer einheitlichen Darstellung der Website. Eine
+        Übermittlung in die USA ist möglich; Google ist unter dem EU-US Data
+        Privacy Framework zertifiziert. Weitere Informationen:
+        <a
+          href="https://policies.google.com/privacy?hl=de"
+          target="_blank"
+          rel="noopener noreferrer"
+          >Datenschutzerklärung von Google</a
+        >.
+      </p>
+
+      <!-- ===================================================== -->
+      <h2>6. Kontaktaufnahme (Booking-Formular und E-Mail)</h2>
+      <h3>6.1 Booking-Formular</h3>
+      <p>
+        Das Booking-Formular speichert keine Daten auf dieser Website. Beim
+        Absenden öffnet sich das E-Mail-Programm auf deinem Gerät mit einer
+        vorausgefüllten Nachricht. Die Daten werden erst übertragen, wenn du
+        diese E-Mail selbst abschickst. Dabei verarbeite ich:
       </p>
       <ul>
-        <li>Name / Agenturname</li>
+        <li>Name bzw. Agenturname</li>
         <li>E-Mail-Adresse</li>
-        <li>Betreff / Projekt</li>
-        <li>Deine Nachricht (Inhalt der Anfrage)</li>
+        <li>Projekt bzw. Betreff</li>
+        <li>Inhalt deiner Nachricht</li>
       </ul>
+
+      <h3>6.2 Kontakt per E-Mail oder Telefon</h3>
       <p>
-        Diese Daten werden ausschließlich zur Bearbeitung und Beantwortung
-        deiner Anfrage verwendet. Eine Weitergabe an Dritte findet nicht statt.
-      </p>
-      <p>
-        <strong>Rechtsgrundlage:</strong> Art. 6 Abs. 1 lit. a DSGVO
-        (Einwilligung). Mit Absenden des Formulars willigst du in die
-        Verarbeitung deiner Daten zum Zweck der Kontaktaufnahme ein.
+        Wenn du mich per E-Mail oder Telefon kontaktierst, verarbeite ich die
+        von dir mitgeteilten Daten (z.&nbsp;B. Name, Kontaktdaten, Inhalt der
+        Anfrage) zur Bearbeitung deiner Anfrage.
       </p>
 
-      <h3>3.3 Kontaktaufnahme per E-Mail</h3>
+      <h3>6.3 Zweck, Rechtsgrundlage und Empfänger</h3>
       <p>
-        Wenn du mich per E-Mail kontaktierst, werden die von dir übermittelten
-        Daten (z.&nbsp;B. Name, E-Mail-Adresse, Inhalt der Nachricht)
-        ausschließlich zur Bearbeitung der Anfrage genutzt. Eine Weitergabe an
-        Dritte findet nicht statt.
+        Die Daten nutze ich ausschließlich zur Bearbeitung deiner Anfrage und
+        zur Abwicklung eines möglichen Auftrags. Rechtsgrundlage ist Art. 6
+        Abs. 1 lit. b DSGVO, wenn deine Anfrage auf einen Vertrag (z.&nbsp;B.
+        ein Booking) abzielt; in allen anderen Fällen Art. 6 Abs. 1 lit. f
+        DSGVO (berechtigtes Interesse an der Beantwortung von Anfragen).
+      </p>
+      <p>
+        Für den Empfang von E-Mails nutze ich den Dienst WEB.DE der 1&amp;1 Mail
+        &amp; Media GmbH (Deutschland), der die Nachrichten in meinem Auftrag
+        verarbeitet. Eine Weitergabe an sonstige Dritte erfolgt nicht, es sei
+        denn, sie ist zur Durchführung eines Auftrags erforderlich oder
+        gesetzlich vorgeschrieben.
       </p>
 
-      <h2>4. Social-Media-Links (Instagram &amp; TikTok)</h2>
-      <p>Auf dieser Website befinden sich Links zu meinen Profilen auf:</p>
-      <ul>
-        <li>Instagram</li>
-        <li>TikTok</li>
-      </ul>
+      <!-- ===================================================== -->
+      <h2>7. Links zu Social Media und Fotografen</h2>
       <p>
-        Es werden <strong>keine</strong> Social-Media-Plugins eingebettet,
-        sondern lediglich normale Links verwendet. Erst wenn du auf einen
-        solchen Link klickst, verlässt du meine Website und wirst auf die Seite
-        des jeweiligen Anbieters weitergeleitet.
-      </p>
-      <p>
-        Die Datenverarbeitung auf Instagram und TikTok erfolgt in eigener
-        Verantwortung der jeweiligen Anbieter nach deren
-        Datenschutzbestimmungen:
+        Diese Website enthält einfache Links zu meinen Profilen bei Instagram
+        und TikTok sowie zu den Profilen der beteiligten Fotografinnen und
+        Fotografen. Es sind keine Social-Media-Plugins eingebunden. Daten werden
+        erst dann an den jeweiligen Anbieter übertragen, wenn du einen Link
+        anklickst und dessen Seite aufrufst. Ab diesem Zeitpunkt gelten die
+        Datenschutzbestimmungen des jeweiligen Anbieters:
       </p>
       <ul>
         <li>
-          Instagram:
+          Instagram (Meta Platforms Ireland Ltd.):
           <a
             href="https://privacycenter.instagram.com/policy"
             target="_blank"
             rel="noopener noreferrer"
+            >privacycenter.instagram.com/policy</a
           >
-            https://privacycenter.instagram.com/policy
-          </a>
         </li>
         <li>
-          TikTok:
+          TikTok (TikTok Technology Limited, Irland):
           <a
             href="https://www.tiktok.com/legal/page/eea/privacy-policy"
             target="_blank"
             rel="noopener noreferrer"
+            >tiktok.com/legal/page/eea/privacy-policy</a
           >
-            https://www.tiktok.com/legal/page/eea/privacy-policy
-          </a>
         </li>
       </ul>
 
-      <h2>5. Cookies &amp; Tracking</h2>
-      <p>Diese Website verwendet:</p>
-      <ul>
-        <li>keine Cookies,</li>
-        <li>keine Tracking-Tools (z.&nbsp;B. Google Analytics),</li>
-        <li>keine eingebetteten Social-Media-Plugins,</li>
-        <li>
-          keine extern geladenen Webfonts (z.&nbsp;B. Google Fonts via CDN) für
-          Analysezwecke.
-        </li>
-      </ul>
-      <p>Es findet keine Analyse des Nutzerverhaltens statt.</p>
-
-      <h2>6. Weitergabe von Daten</h2>
+      <!-- ===================================================== -->
+      <h2>8. Cookies und Tracking</h2>
       <p>
-        Eine Übermittlung deiner personenbezogenen Daten an Dritte findet
-        grundsätzlich nicht statt. Ausgenommen hiervon sind:
-      </p>
-      <ul>
-        <li>der Hosting-Anbieter, der die Website technisch bereitstellt,</li>
-        <li>
-          der E-Mail-Provider, über den E-Mails versendet und empfangen werden.
-        </li>
-      </ul>
-      <p>
-        Diese Dienstleister verarbeiten Daten ausschließlich in meinem Auftrag
-        (Auftragsverarbeitung) und auf Grundlage von Art. 28 DSGVO.
+        Diese Website setzt keine Cookies, speichert keine Informationen auf
+        deinem Endgerät und verwendet keine Analyse- oder Tracking-Dienste
+        (z.&nbsp;B. Google Analytics). Ein Cookie-Banner ist daher nicht
+        erforderlich.
       </p>
 
-      <h2>7. Speicherdauer</h2>
+      <!-- ===================================================== -->
+      <h2>9. Speicherdauer</h2>
       <p>
-        Daten, die du mir über das Kontaktformular oder per E-Mail übermittelst,
-        speichere ich nur so lange, wie dies für die Bearbeitung deiner Anfrage
-        erforderlich ist.
-      </p>
-      <p>
-        Server-Logfiles werden gemäß den Vorgaben des jeweiligen Hosters
-        gespeichert und anschließend automatisch gelöscht (typischerweise nach
-        wenigen Tagen oder Wochen).
-      </p>
-
-      <h2>8. Deine Rechte nach der DSGVO</h2>
-      <p>
-        Du hast im Rahmen der geltenden gesetzlichen Bestimmungen jederzeit das
-        Recht auf:
+        Ich speichere personenbezogene Daten nur so lange, wie es für den
+        jeweiligen Zweck erforderlich ist:
       </p>
       <ul>
         <li>
-          <strong>Auskunft</strong> über die zu deiner Person gespeicherten
-          Daten (Art. 15 DSGVO),
+          <strong>Anfragen ohne Auftrag:</strong> Löschung, sobald die Anfrage
+          abschließend bearbeitet ist und keine weitere Kommunikation zu
+          erwarten ist.
         </li>
         <li>
-          <strong>Berichtigung</strong> unrichtiger oder unvollständiger Daten
-          (Art. 16 DSGVO),
+          <strong>Geschäftliche Korrespondenz</strong> (z.&nbsp;B. Angebote,
+          Auftragsbestätigungen): Aufbewahrung für 6 Jahre gemäß § 147 AO.
         </li>
         <li>
-          <strong>Löschung</strong> deiner gespeicherten Daten (Art. 17 DSGVO),
-        </li>
-        <li>
-          <strong>Einschränkung der Verarbeitung</strong> (Art. 18 DSGVO),
-        </li>
-        <li><strong>Datenübertragbarkeit</strong> (Art. 20 DSGVO),</li>
-        <li>
-          <strong>Widerspruch</strong> gegen bestimmte Verarbeitungen (Art. 21
-          DSGVO).
+          <strong>Rechnungen und Buchungsbelege:</strong> Aufbewahrung für 8
+          Jahre gemäß § 147 AO.
         </li>
       </ul>
       <p>
-        Hierzu sowie zu weiteren Fragen zum Thema personenbezogene Daten kannst
-        du dich jederzeit an folgende E-Mail-Adresse wenden:
+        Die gesetzlichen Fristen beginnen mit dem Ende des Kalenderjahres, in
+        dem das Dokument entstanden ist. Rechtsgrundlage für diese Aufbewahrung
+        ist Art. 6 Abs. 1 lit. c DSGVO in Verbindung mit den steuerrechtlichen
+        Aufbewahrungspflichten. Server-Logdaten werden von GitHub nach dessen
+        eigenen Vorgaben gelöscht.
+      </p>
+
+      <!-- ===================================================== -->
+      <h2>10. Deine Rechte</h2>
+      <p>Du hast gegenüber mir jederzeit folgende Rechte:</p>
+      <ul>
+        <li>Auskunft über deine gespeicherten Daten (Art. 15 DSGVO)</li>
+        <li>Berichtigung unrichtiger Daten (Art. 16 DSGVO)</li>
+        <li>Löschung deiner Daten (Art. 17 DSGVO)</li>
+        <li>Einschränkung der Verarbeitung (Art. 18 DSGVO)</li>
+        <li>Datenübertragbarkeit (Art. 20 DSGVO)</li>
+        <li>
+          Widerruf einer erteilten Einwilligung mit Wirkung für die Zukunft
+          (Art. 7 Abs. 3 DSGVO)
+        </li>
+      </ul>
+
+      <div class="highlight">
+        <p><strong>Widerspruchsrecht (Art. 21 DSGVO)</strong></p>
+        <p>
+          Soweit ich Daten auf Grundlage von Art. 6 Abs. 1 lit. f DSGVO
+          (berechtigtes Interesse) verarbeite, hast du das Recht, aus Gründen,
+          die sich aus deiner besonderen Situation ergeben, jederzeit
+          Widerspruch gegen diese Verarbeitung einzulegen. Ich verarbeite die
+          Daten dann nicht mehr, es sei denn, ich kann zwingende schutzwürdige
+          Gründe nachweisen oder die Verarbeitung dient der Geltendmachung,
+          Ausübung oder Verteidigung von Rechtsansprüchen.
+        </p>
+      </div>
+
+      <p>
+        Für die Ausübung deiner Rechte genügt eine formlose Nachricht an
         <a href="mailto:info.chris-model@web.de">info.chris-model@web.de</a>.
       </p>
+
+      <!-- ===================================================== -->
+      <h2>11. Beschwerderecht bei der Aufsichtsbehörde</h2>
       <p>
-        Außerdem hast du das Recht, dich bei einer zuständigen
-        Datenschutzaufsichtsbehörde zu beschweren, wenn du der Ansicht bist,
-        dass die Verarbeitung deiner personenbezogenen Daten gegen die DSGVO
-        verstößt.
+        Wenn du der Ansicht bist, dass die Verarbeitung deiner Daten gegen die
+        DSGVO verstößt, kannst du dich bei einer Datenschutz-Aufsichtsbehörde
+        beschweren. Für mich zuständig ist:
+      </p>
+      <p>
+        Der Hessische Beauftragte für Datenschutz und Informationsfreiheit<br />
+        Gustav-Stresemann-Ring 1<br />
+        65189 Wiesbaden<br />
+        <a
+          href="https://datenschutz.hessen.de"
+          target="_blank"
+          rel="noopener noreferrer"
+          >datenschutz.hessen.de</a
+        >
       </p>
 
-      <h2>9. Datensicherheit</h2>
+      <!-- ===================================================== -->
+      <h2>12. Pflicht zur Bereitstellung, keine automatisierten Entscheidungen</h2>
       <p>
-        Ich nutze die technischen und organisatorischen Sicherheitsmaßnahmen,
-        die durch den Hosting-Anbieter bereitgestellt werden (z.&nbsp;B.
-        TLS/HTTPS), um deine Daten vor Verlust, Missbrauch oder unberechtigtem
-        Zugriff zu schützen.
-      </p>
-      <p>
-        Bitte beachte, dass eine Datenübertragung im Internet (z.&nbsp;B. bei
-        der Kommunikation per E-Mail) Sicherheitslücken aufweisen kann. Ein
-        vollumfänglicher Schutz der Daten vor dem Zugriff durch Dritte ist nicht
-        möglich.
+        Du bist nicht verpflichtet, mir personenbezogene Daten mitzuteilen. Ohne
+        Kontaktdaten kann ich eine Anfrage jedoch nicht beantworten. Eine
+        automatisierte Entscheidungsfindung einschließlich Profiling (Art. 22
+        DSGVO) findet nicht statt.
       </p>
 
-      <h2>10. Änderungen dieser Datenschutzerklärung</h2>
+      <!-- ===================================================== -->
+      <h2>13. Datensicherheit</h2>
       <p>
-        Ich behalte mir vor, diese Datenschutzerklärung künftig anzupassen,
-        damit sie stets den aktuellen rechtlichen Anforderungen entspricht oder
-        um Änderungen meiner Leistungen in der Datenschutzerklärung umzusetzen,
-        z.&nbsp;B. bei der Einführung neuer Funktionen auf der Website.
+        Die Website wird verschlüsselt über HTTPS (TLS) übertragen. Bitte
+        beachte, dass die Übertragung von E-Mails im Internet Sicherheitslücken
+        aufweisen kann; ein lückenloser Schutz vor dem Zugriff durch Dritte ist
+        dabei nicht möglich.
+      </p>
+
+      <!-- ===================================================== -->
+      <h2>14. Änderungen dieser Datenschutzerklärung</h2>
+      <p>
+        Ich passe diese Datenschutzerklärung an, wenn sich die Website, die
+        eingesetzten Dienste oder die rechtlichen Vorgaben ändern. Es gilt die
+        jeweils hier veröffentlichte Fassung.
       </p>
     </main>
-
-    <script>
-      // Jahr automatisch setzen
-      const year = new Date().getFullYear();
-      const dsDate = document.getElementById("ds-date");
-      if (dsDate) dsDate.textContent = year.toString();
-    </script>
   </body>
 </html>
